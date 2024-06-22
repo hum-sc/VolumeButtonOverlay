@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        style="?attr/materialIconButtonFilledTonalStyle"
+        android:id="@+id/volume_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/volume_up"
+        app:icon="@drawable/ic_launcher_foreground"
+        />
+    <Button
+        style="?attr/materialIconButtonFilledTonalStyle"
+        android:id="@+id/volume_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/volume_down"
+        app:icon="@drawable/ic_launcher_foreground"
+        />
+</LinearLayout>

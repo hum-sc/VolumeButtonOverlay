@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActionBarService</string>
+    <string name="power">P</string>
+    <string name="volume_up">+</string>
+    <string name="volume_down">-</string>
+    <string name="title_activity_main">Volume Fix Tool</string>
+    <string name="description">This service helps you to control the volume of your device using the power button.</string>
+    <string name="title_activity_layout">Layout</string>
+</resources>
